@@ -1,0 +1,29 @@
+[27-Feb-2025 15:45:53 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/bacefbae/auth.sovfren.com/register.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/bacefbae/auth.sovfren.com/register.php on line 11
+[27-Feb-2025 19:04:09 Europe/London] PHP Warning:  Undefined variable $pdo in /home/bacefbae/auth.sovfren.com/register.php on line 14
+[27-Feb-2025 19:04:09 Europe/London] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/bacefbae/auth.sovfren.com/register.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/bacefbae/auth.sovfren.com/register.php on line 14
+[27-Feb-2025 19:16:04 Europe/London] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bacefbae_sso_db.users' doesn't exist in /home/bacefbae/auth.sovfren.com/register.php:14
+Stack trace:
+#0 /home/bacefbae/auth.sovfren.com/register.php(14): PDO->prepare()
+#1 {main}
+  thrown in /home/bacefbae/auth.sovfren.com/register.php on line 14
+[27-Feb-2025 20:20:08 Europe/London] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'INSERT INTO' in /home/bacefbae/auth.sovfren.com/register.php:20
+Stack trace:
+#0 /home/bacefbae/auth.sovfren.com/register.php(20): PDO->prepare()
+#1 {main}
+  thrown in /home/bacefbae/auth.sovfren.com/register.php on line 20
+[27-Feb-2025 20:20:29 Europe/London] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'INSERT INTO' in /home/bacefbae/auth.sovfren.com/register.php:20
+Stack trace:
+#0 /home/bacefbae/auth.sovfren.com/register.php(20): PDO->prepare()
+#1 {main}
+  thrown in /home/bacefbae/auth.sovfren.com/register.php on line 20
+[27-Feb-2025 20:24:59 Europe/London] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'INSERT INTO' in /home/bacefbae/auth.sovfren.com/register.php:22
+Stack trace:
+#0 /home/bacefbae/auth.sovfren.com/register.php(22): PDO->prepare()
+#1 {main}
+  thrown in /home/bacefbae/auth.sovfren.com/register.php on line 22
